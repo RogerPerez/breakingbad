@@ -32,6 +32,30 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ### Organisation and components
 
-#### Deploy on Netlify
+Pages folder: Index.js's the home page, inside "character" folder, you'll find the [id].js page, wich is the detail page.
+Also 404.js is in this folder, it's a custom 404 page.
+
+Public folder: only contains favicon
+
+Src folder contains:
+
+    - Components: all components must be in this folder, each component in its own folder. Each folder must contain jsx component and scss of the component (imported in globals.scss)
+
+    - Hooks folder: Contains custom hooks
+
+    - Translations: it contains the translations documents, each language in his own folder.
+
+Styles folder: Contains the .scss files, all .scss files must be imported in "globals.scss", which is imported in \_app.js
+
+#### Environment
+
+The .env file must contain 2 url:
+
+- NEXT_PUBLIC_HOST="https://www.breakingbadapi.com/api/characters"
+- NEXT_PUBLIC_QUOTES="https://www.breakingbadapi.com/api/quote"
+
+##### Deploy on Netlify
 
 Continuous Deployment's configurated, it deploys when push main branch.
+
+###### KEEP THE CODDE CLEAN! :D
