@@ -26,9 +26,11 @@ describe("detail tests", () => {
     cy.get(".text").click();
     cy.url().should("include", "http://localhost:3000");
   });
-  it("it should show message when bad url", () => {
-    cy.visit("http://localhost:3000/character/1654");
-    cy.get(".noCharacters");
+  it("it should redirect when bad url", () => {
+    cy.url().then((url) => {
+      cy.visit("http://localhost:3000/character/1654");
+      cy.url().should("not.eq", url);
+    });
   });
 });
 
