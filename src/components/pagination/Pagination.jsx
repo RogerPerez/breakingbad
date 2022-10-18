@@ -19,10 +19,11 @@ const Pagination = ({ doPagination }) => {
 
   useEffect(() => {
     doPagination(data, loading);
+    console.log;
   }, [data]);
 
   const handlePagination = (action) => {
-    if (action === "increment") {
+    if (action === "increment" && counter < Math.ceil(total.length / 8) - 1) {
       setCounter(counter + 1);
     } else if (action === "decrement" && counter > 0) {
       setCounter(counter - 1);
