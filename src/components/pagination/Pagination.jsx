@@ -7,15 +7,13 @@ import {
   faChevronLeft,
 } from "@fortawesome/free-solid-svg-icons";
 
-const Pagination = ({ doPagination }) => {
+const Pagination = ({ doPagination, url }) => {
   const [counter, setCounter] = useState(0);
 
   // This hook fetch the api, and return 8 characters,with and offset (used for pagination)
-  const { data, loading } = useFetch(
-    `${process.env.NEXT_PUBLIC_HOST}?limit=8&offset=${counter * 8}`
-  );
+  const { data, loading } = useFetch(`${url}?limit=8&offset=${counter * 8}`);
   // This hook fetch the api, and return ALL characters to get the total numeber of characters
-  const { data: total } = useFetch(`${process.env.NEXT_PUBLIC_HOST}`);
+  const { data: total } = useFetch(`${url}`);
 
   useEffect(() => {
     doPagination(data, loading);

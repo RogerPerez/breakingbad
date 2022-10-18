@@ -47,7 +47,12 @@ export default function Home({}) {
               doSearchCharacters={handleSearch}
               doSearchedCharacter={handleSearchedCharacter}
             />
-            {!searched && <Pagination doPagination={handlePagination} />}
+            {!searched && (
+              <Pagination
+                doPagination={handlePagination}
+                url={process.env.NEXT_PUBLIC_HOST}
+              />
+            )}
           </div>
           {!loading ? (
             <>
