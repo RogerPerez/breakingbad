@@ -16,7 +16,7 @@ const CharacterPage = ({ characterInfo, quote }) => {
       <div className="detailContainer">
         <div className="goBack">
           <FontAwesomeIcon
-            onClick={() => router.back()}
+            onClick={() => router.push("/")}
             className="goBackButton"
             icon={faArrowLeft}
           />
