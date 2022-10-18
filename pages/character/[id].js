@@ -40,9 +40,17 @@ export const getServerSideProps = async (context) => {
     const res = await fetch(
       `${process.env.NEXT_PUBLIC_HOST}/${context.query.id}`
     );
-    try {
-      const data = await res.json();
+    const data = await res.json();
+    if (!data || data.length < 1) {
+      return {
+        redirect: {
+          destination: "/",
+        },
+        props: { characterInfo: null, quote: null },
+      };
+    }
 
+    try {
       const resQuote = await fetch(
         `${process.env.NEXT_PUBLIC_QUOTES}/random?author=${data[0].name}`
       );
