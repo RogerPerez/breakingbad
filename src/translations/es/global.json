@@ -1,0 +1,32 @@
+{
+    "menu":{
+        "about":"Sobre mi"
+    },
+    "home":{
+        "no-characters":"Lo sentimos... No hemos encontrado personajes con ese nombre"
+    },
+  
+    "suggestions":{
+        "input-placeholder":"Buscar...",
+        "loading":"Cargando..."
+    },
+    "detail":{
+        "name":"Nombre",
+        "birthday":"Cumpleaños",
+        "nickname":"Apodo",
+        "occupation":"Ocupación",
+        "portrayed":"Interpretado",
+        "status":"Estado",
+        "quote":"Frase",
+        "go-back":"Volver atrás"
+
+    },
+    "notFound":{
+        "message":"Upsss... No hemos encontrado esta página",
+        "link":"Llévame a la página principal!",
+        "unknown":"Desconocido"
+
+
+    }
+
+}

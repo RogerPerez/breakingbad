@@ -1,0 +1,15 @@
+.searchedElement{
+    display: flex;
+    padding:10px;
+    background-color: white;
+    align-items: center;
+margin-top: 10px;
+border-radius:12px ;
+justify-content: space-between;
+    .refreshIcon{
+        width: 14px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}

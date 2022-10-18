@@ -1,0 +1,53 @@
+.suggestions{
+    width: 20%;
+    .suggestionsInput{
+        width: 100%;
+        background-color: white;
+        border-radius: 8px;
+        padding:2px;
+        .inputContainer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .searchIcon{
+                width: 10%;
+                margin-right: 5px;
+                color: #0D3E10;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+            .input{
+                width: 90%;
+                border: none;
+                outline: none;
+                padding:5px;
+                font-size: 18px;
+            }
+        }
+            .suggestion{
+                background-color: white;
+                color:black;
+                width: 98%;
+                margin-top: 10px;
+                padding:1%;
+                font-size: 16px;
+                
+                &:hover{
+                    cursor: pointer;
+                    background-color: rgb(175, 175, 175);
+                }
+            }
+            .spinner{
+               display: flex;
+               justify-content: center;
+               padding:5px;
+            }
+    
+    }
+}
+@media  (max-width: 768px)  {
+.suggestions{
+    width: 100%;
+}
+}

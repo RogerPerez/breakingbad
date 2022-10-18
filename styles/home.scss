@@ -1,0 +1,49 @@
+.homeContainer{
+    padding:5%;
+    background-color:  #0D3E10;
+    min-height: 100vh;
+    .filters{
+        display: flex;
+        justify-content: space-between;
+    }
+    .charactersContainer{
+        margin-top: 50px;
+        display: grid;
+        gap: 1rem;
+        grid-template-columns:  repeat(4, 1fr);
+    }
+    .noCharacters{
+        color:white;
+        font-size: 28px;
+    }
+    .spinnerContainer{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+      align-items: center;
+      height: 50vh;
+    }
+}
+
+@media  (max-width: 768px)  {
+    .homeContainer{
+        padding:5%;
+        background-color:  #0D3E10;
+        min-height: 100vh;
+        .filters{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        .charactersContainer{
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+        }
+        .noCharacters{
+            color:white;
+            font-size: 28px;
+        }
+        
+    }
+}

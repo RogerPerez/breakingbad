@@ -1,0 +1,22 @@
+@forward "/src/components/characterCard/CharacterCard.scss";
+@forward "/src/components/menu/Menu.scss";
+@forward "/src/components/suggestionsInput/SuggestionsInput.scss";
+@forward "/src/components/spinner/Spinner.scss";
+@forward "/src/components/footer/Footer.scss";
+@forward "/src/components/pagination/Pagination.scss";
+@forward "/src/components/searchedText/SearchedText.scss";
+@forward "/src/components/detailCard/DetailCard.scss";
+@forward "/src/components/label/Label.scss";
+
+
+@forward "./home.scss";
+@forward "./character.scss";
+@forward "./404.scss";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+*{
+  margin: 0;
+  font-family: "poppins";
+}

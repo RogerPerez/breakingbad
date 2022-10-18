@@ -1,0 +1,31 @@
+{
+    "menu":{
+        "about":"About me"
+    },
+    "home":{
+        "no-characters":"We're sorry... We haven't found characters with that name"
+    },
+   
+    "suggestions":{
+        "input-placeholder":"Search...",
+        "loading":"Loading..."
+    },
+    "detail":{
+        "name":"Name",
+        "birthday":"Birthday",
+        "nickname":"Nickname",
+        "occupation":"Occupation",
+        "portrayed":"Portayed",
+        "status":"Status",
+        "quote":"Quote",
+        "go-back":"Go back"
+
+    },
+    "notFound":{
+        "message":"Upsss... We don't found this page",
+        "link":"Take me to home page!",
+        "unknown":"Unknown"
+
+
+    }
+}

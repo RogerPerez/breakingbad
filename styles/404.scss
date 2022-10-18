@@ -1,0 +1,28 @@
+.notFonundContainer{
+    padding:5%;
+    padding-top: 0;
+    background-color:  #0D3E10;
+    min-height: 100vh;
+    display: flex;
+    gap:5%;
+    align-items: center;
+    .img{
+        object-fit: contain;
+        border-radius: 12px;
+    }
+    .text{
+        color:white;
+        font-size: 30px;
+        
+    }
+    .link{
+        color:white;
+        font-size: 30px;
+        margin-top: 20px;
+        text-decoration: underline;
+        &:hover{
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+}

@@ -1,0 +1,56 @@
+.detailCard{
+    display: flex;
+    background-color: white;
+    border-radius: 12px;
+    height: 400px;
+    padding:5%;
+    .imageContainer{
+        width: 50%;
+    .image{
+      width: 50%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center 0px;
+      
+    }
+}
+    .texts{
+        width: 50%;
+        .label{
+            margin-top: 10px;
+            .bold{
+                font-weight: 900;
+                font-size: 18px;
+                text-decoration: underline;
+                color:  #0D3E10;
+            }
+            .li{
+                list-style: none;
+                display: flex;
+                align-items: center;
+                margin-top: 10px;
+                gap:10px;
+                .icon{ width: 20px; color: rgb(0, 208, 255)}
+            }
+        }
+
+    }
+}
+@media  (max-width: 768px)  {
+    .detailCard{
+        flex-direction: column;
+        height: auto;
+        padding:5%;
+        .imageContainer{
+            width: 100%;
+        .image{
+          width: 100%;
+        height: auto;
+          
+        }
+    }
+        .texts{
+            width: 100%;
+        }
+    }
+}
