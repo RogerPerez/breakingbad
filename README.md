@@ -30,7 +30,7 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the project, if its in use will open in other port, check your terminal output.
 
-### Organisation and components
+### Organisation, components and testing
 
 Pages folder: Index.js's the home page, inside "character" folder, you'll find the [id].js page, wich is the detail page.
 Also 404.js is in this folder, it's a custom 404 page.
@@ -46,6 +46,16 @@ Src folder contains:
     - Translations: it contains the translations documents, each language in his own folder.
 
 Styles folder: Contains the .scss files, all .scss files must be imported in "globals.scss", which is imported in \_app.js
+
+Cypress is used for testing, use:
+
+"npx cypress open"
+
+using yarn
+
+"yarn run cypress open"
+
+to open cypress, test are in cypress/e2e/spec.cy.js
 
 #### Environment
 
