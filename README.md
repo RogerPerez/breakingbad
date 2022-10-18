@@ -1,9 +1,11 @@
 This is a [Next.js](https://nextjs.org/) project.
 
+visit in : [Breaking bad Test](https://relaxed-khapse-9f4675.netlify.app/)
+
 ## About this project
 
 This project allows us to search and filter characters from Breaking bad .
-In addition we can see the detail of the character, as well as a random famous phrase of the character
+In addition we can see the detail of the character, as well as a random famous phrase of the character.
 
 ## Getting Started
 

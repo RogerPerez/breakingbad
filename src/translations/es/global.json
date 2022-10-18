@@ -3,7 +3,7 @@
         "about":"Sobre mi"
     },
     "home":{
-        "no-characters":"Lo sentimos... No hemos encontrado personajes con ese nombre"
+        "no-characters":"Lo sentimos... No hemos encontrado personajes con ese nombre o no hay datos disponibles"
     },
   
     "suggestions":{

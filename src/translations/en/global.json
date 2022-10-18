@@ -3,7 +3,7 @@
         "about":"About me"
     },
     "home":{
-        "no-characters":"We're sorry... We haven't found characters with that name"
+        "no-characters":"We're sorry... We haven't found characters with that name or data is not avaliable"
     },
    
     "suggestions":{
