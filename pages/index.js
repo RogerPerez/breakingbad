@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Layout from "../src/components/layout/Layout";
 import CharacterCard from "../src/components/characterCard/CharacterCard";
-import SuggestionsInput from "../src/components/SuggestionsInput/SuggestionsInput";
+import SuggestionsInput from "../src/components/suggestionsInput/SuggestionsInput";
 import { useState } from "react";
 import Pagination from "../src/components/pagination/Pagination";
 import { useTranslation } from "react-i18next";
